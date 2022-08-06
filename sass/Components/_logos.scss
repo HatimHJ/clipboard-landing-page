@@ -1,0 +1,21 @@
+.logos{
+  .company:not(:first-of-type){
+    margin-top: 4rem;
+  }
+  img{
+    width: 100px;
+  }  
+}
+
+.logos{
+  @include tablet{
+    .container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .company:not(:first-of-type){
+      margin-top: 0rem;
+    } 
+  }
+}

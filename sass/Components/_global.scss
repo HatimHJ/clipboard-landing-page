@@ -1,0 +1,33 @@
+/* ================================
+  All Common Styles In This Project
+  ================================ */
+
+h1,h2,h3,h4,h5,h6{
+  color: nth($list: $colors, $n: 5);
+}
+p{
+  color: nth($list: $colors, $n:6 )
+}
+
+.btn-1{  //3c9f8f 
+  @include bg-color(nth($colors, 3));
+  box-shadow:darken($color: nth($colors, 3), $amount: 5) 0px 2px 0px 1px,
+            #26baa4a1 0px 5px 10px 0;
+  &:hover{
+    background-color: lighten($color: nth($colors,3), $amount: 10);
+  }
+}
+.btn-2{  
+  @include bg-color(nth($colors, 4));
+  box-shadow:darken($color: nth($colors, 4), $amount: 5) 0px 2px 0px 1px,
+          #485cffb8  0px 5px 10px 0;
+  &:hover{
+    background-color: lighten($color: nth($colors, 4), $amount: 10);
+  }
+}
+
+@include tablet{ //768
+  .btn{
+      max-width: 200px;
+    }    
+}

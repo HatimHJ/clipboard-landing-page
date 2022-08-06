@@ -1,0 +1,50 @@
+.image-content{
+  .content{
+    p{
+      width: 90%;
+      margin-inline: auto;
+    }
+  }
+  
+  @media (min-width:1024px) {
+    
+  }
+}
+
+
+// media query
+.image-content{ 
+  @include tablet{
+    padding-top: 0;
+    .container{
+      max-width: 100vw;
+    }
+    img{
+      margin-left: -2rem;
+    }
+    .content {
+      padding-top: 0;
+      h3{ text-align: left;}
+      p {
+        text-align: left;
+        margin-left: 0;
+      }
+    }
+    .grid{     
+        @include grid();
+        img{
+          grid-column: 1/7;
+        }
+        .content{
+          grid-column: 8/13;
+        }
+      
+    }
+  }
+  @include laptop{
+    .content{
+      h3{font-size: 1.5rem;}
+      p{max-width: 350px;}
+    }
+  }
+}

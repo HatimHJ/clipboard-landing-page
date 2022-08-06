@@ -1,0 +1,30 @@
+
+
+// hero media query
+.heading-body{
+  @include tablet{ //768
+    .container{
+      max-width: 70vw;
+    }
+  }
+  
+  @include laptop{ //1024
+    .container{
+      max-width: 60vw;
+    }
+    h2{
+      font-size: 2rem;
+    }
+    p{
+      max-width: 650px;
+      margin-inline: auto;
+      font-size: 13px;
+    }
+  }
+
+  @include tv{ //1140
+    .container{
+      max-width: 720px;
+    }
+  }
+}

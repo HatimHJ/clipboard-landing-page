@@ -1,0 +1,14 @@
+@import './color';
+
+.btn{
+  cursor: pointer;
+  transition: all .3s;
+  border: none;
+  width: 90%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-family: 'Bai Jamjuree';
+}
+
