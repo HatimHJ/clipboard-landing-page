@@ -1,11 +1,11 @@
 .intro{
-  background-image: url(../../images/bg-header-mobile.png);
+  background-image: url(../images/bg-header-mobile.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
   padding-top: 8rem !important;
   @include tablet{
-    background-image: url('../../images/bg-header-desktop.png');
+    background-image: url(../images/bg-header-desktop.png);
   }
 }
 

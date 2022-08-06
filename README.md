@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/HatimHJ/clipboard-landing-page)
-- Live Site URL: [live site](https://hatimhj.github.io/fylo-dark-theme/)
+- Live Site URL: [live site](https://hatimhj.github.io/clipboard-landing-page/)
 
 ### Built with
 
