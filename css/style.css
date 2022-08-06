@@ -1028,7 +1028,8 @@ p {
 @media (min-width: 768px) {
   .features .flex-container {
     justify-content: space-evenly;
-    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 2rem;
   }
   .features .feature {
